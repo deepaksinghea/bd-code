@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS bank ( eid int, name String,
 salary String, position String)
-COMMENT bank customer details’
+COMMENT bank 'customer details'
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ‘,’
 LINES TERMINATED BY ‘\n’
